@@ -33,16 +33,6 @@ class Circle {
         return (2 * Pi * this.radius);
     }
     
-    
-    
-//OUTPUT:
-// Area:12.56
-// color:red
-// circumference12.56
-// New radius:4
-// New Area:50.24
-// toStringCircle[radius =4,color =red]
-    
     toString(){
         return "Circle[radius =" +this.radius +",color =" +this.color + "]";
     }
@@ -56,3 +46,16 @@ circle_1.setradius(4);
 console.log("New radius:" +circle_1.getradius())
 console.log("New Area:"+circle_1.getArea());
 console.log("toString"+circle_1.toString());
+
+
+
+
+
+    
+//OUTPUT:
+// Area:12.56
+// color:red
+// circumference12.56
+// New radius:4
+// New Area:50.24
+// toStringCircle[radius =4,color =red]
