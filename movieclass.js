@@ -32,3 +32,7 @@ const movie_6 = new Movies ("XYZ", "Eon Production", "R");
 //input array full of Movie instances
 console.log(movie_1.getPGMovies([ movie_1, movie_2, movie_3, movie_4, movie_5, movie_6 ]));
 
+
+
+// Output:
+// [ 'The Shawshank Redemption', 'Iron Man', 'Iron Man 2' ]
