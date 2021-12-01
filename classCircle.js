@@ -33,6 +33,16 @@ class Circle {
         return (2 * Pi * this.radius);
     }
     
+    
+    
+//OUTPUT:
+// Area:12.56
+// color:red
+// circumference12.56
+// New radius:4
+// New Area:50.24
+// toStringCircle[radius =4,color =red]
+    
     toString(){
         return "Circle[radius =" +this.radius +",color =" +this.color + "]";
     }
