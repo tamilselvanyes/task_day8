@@ -30,3 +30,7 @@ console.log(person_2.getcollege());
 console.log(person_1.getstream());
 console.log(person_2.gethometown());
 
+// Output:
+// ABC
+// EEE
+// Bangalore
